@@ -11,15 +11,15 @@
 <?php
 /**
  * index.php
- * 
+ *
  * The Front Controller for handling every request
- * 
+ *
  * =============================================
  *  EasyPHP, a easy and fast mvc php framework.
  * =============================================
  * Author: shines77 (gz_shines@msn.com)
  * Modify: 2013-10-30, Wednesday
- * Since:  ver 1.0.0
+ * Since:  v1.0.0
  * GitHub: https://github.com/shines77/EasyPHP
  * (PHP 5.0(+) and mysql 5.1(+))
  */
@@ -35,6 +35,9 @@ define('FC_NAME', pathinfo(__FILE__, PATHINFO_BASENAME));
 
 // The filepath of the front controller (this file)
 define('FC_PATH', str_replace(FC_NAME, '', __FILE__));
+
+// The filepath of the base (this file)
+define('BASE_PATH', FC_PATH);
 
 require_once 'globals.php';
 

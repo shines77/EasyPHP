@@ -9,7 +9,7 @@
  * =============================================
  * Author: shines77 (gz_shines@msn.com)
  * Modify: 2013-10-30, Wednesday
- * Since:  ver 1.0.0
+ * Since:  v1.0.0
  * GitHub: https://github.com/shines77/EasyPHP
  * (PHP 5.0(+) and mysql 5.1(+))
  */
